@@ -36,7 +36,7 @@ main {
 
 .text-link:hover {
   background-color: #000000;
-  color: #FFF;
+  color: #fff;
 }
 
 .header__link_active {
@@ -81,6 +81,7 @@ main {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -100,7 +101,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   font-size: 100px;
   line-height: 1.15;
@@ -143,7 +144,7 @@ main {
 }
 
 .cover__description-text {
-  color: #FFF;
+  color: #fff;
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
@@ -151,10 +152,10 @@ main {
 }
 
 .bet-button {
-  border: 1px #FFF solid;
+  border: 1px currentColor solid;
   padding: 14px 32px;
-  color: #FFF;
-  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 22px;
   line-height: 1;
@@ -165,7 +166,7 @@ main {
 
 .bet-button:hover {
   color: #000000;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .lots {
@@ -188,7 +189,7 @@ main {
 }
 
 .lost__card-list-item {
-  height: 563px;
+  min-height: 563px;
 }
 
 .card-link {
@@ -205,30 +206,27 @@ main {
   width: auto;
   height: 100%;
   padding: 50px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card__title {
   position: relative;
   z-index: 1;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   font-size: 22px;
   line-height: 1.2;
@@ -239,7 +237,7 @@ main {
 .card__text {
   position: relative;
   z-index: 1;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   line-height: 1.2;
 }
