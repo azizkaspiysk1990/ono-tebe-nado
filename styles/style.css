@@ -13,7 +13,7 @@ main {
   display: grid;
   grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
-  padding: 92px 51px 89px;
+  padding: 92px 49.48px 89px 50.52px;
 }
 
 .header__links-list {
@@ -44,14 +44,13 @@ main {
 }
 
 .header__logo {
-  display: block;
-  justify-self: center;
   align-self: center;
-  width: 140px;
+  padding-left: 36px;
 }
 
 .header__logo-image {
-  width: 100%;
+  width: 148px;
+  height: 105px;
 }
 
 .address {
@@ -60,6 +59,7 @@ main {
 
 .header__address {
   justify-self: end;
+  width: 240.52px;
   font-style: inherit;
 }
 
@@ -169,7 +169,7 @@ main {
 }
 
 .lots {
-  padding: 0 50px;
+  padding: 0 24px;
 }
 
 .lots__heading {
@@ -188,7 +188,7 @@ main {
 }
 
 .lost__card-list-item {
-  height: 100%;
+  height: 563px;
 }
 
 .card-link {
@@ -254,10 +254,9 @@ main {
 }
 
 .about {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 24px;
-  padding: 0 50px;
+  display: flex;
+  padding-left: 71px;
+  padding-right: 24px;
 }
 
 .about__column {
@@ -266,6 +265,7 @@ main {
 
 .about__column_text {
   grid-column: 2/4;
+  padding-left: 72px;
 }
 
 .about__logo {
@@ -283,7 +283,7 @@ main {
 }
 
 .about__title {
-  padding: 100px 0 104px;
+  padding: 101px 0 100px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -304,7 +304,7 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 80px;
+  padding: 180px 50px 88px;
 }
 
 .footer__social-icon {
