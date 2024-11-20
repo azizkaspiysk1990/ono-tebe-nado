@@ -202,7 +202,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
   width: auto;
   min-height: 563px;
   padding: 50px 40px;
